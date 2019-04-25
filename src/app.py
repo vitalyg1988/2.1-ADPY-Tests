@@ -1,5 +1,5 @@
 import logging
-from helpers.config import Config, APP_NAME
+from ADPY_Tests.src.helpers.config import Config, APP_NAME
 
 
 class App:
@@ -18,3 +18,4 @@ class App:
 
 if __name__ == '__main__':
     App().run()
+
